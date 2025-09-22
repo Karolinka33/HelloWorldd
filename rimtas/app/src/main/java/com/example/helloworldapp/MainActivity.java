@@ -40,4 +40,6 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
         textView.setBackgroundColor(Color.parseColor("#008000"));
     }
+
+    //poop related app
 }
