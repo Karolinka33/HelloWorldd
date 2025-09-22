@@ -1,9 +1,6 @@
-package com.example.helloworldapp;
+package com.example.helloworlddd;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,21 +20,5 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    }
-
-    public void changeClr(View view) {
-        TextView textView = findViewById(R.id.textView);
-        textView.setText("butt");
-
-    }
-    public void changeTxt(View view) {
-        TextView textView = findViewById(R.id.textView);
-        textView.setTextColor(Color.parseColor("#964B00"));
-
-    }
-
-    public void changeBckrnd(View view) {
-        TextView textView = findViewById(R.id.textView);
-        textView.setBackgroundColor(Color.parseColor("#008000"));
     }
 }
